@@ -1,0 +1,25 @@
+{
+  "name": "puppeteerpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava -v"
+  },
+  "author": "Atom Yah",
+  "license": "ISC",
+  "dependencies": {
+    "convert-filename-ja": "^1.0.0",
+    "csv-stringify": "^5.3.0",
+    "delay": "^4.1.0",
+    "dotenv": "^6.2.0",
+    "iconv-lite": "^0.4.24",
+    "puppeteer": "^1.12.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "eslint": "^5.13.0",
+    "nyc": "^13.2.0"
+  }
+}
